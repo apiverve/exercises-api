@@ -44,7 +44,11 @@ from apiverve_exercises.apiClient import ExercisesAPIClient
 # Initialize the client with your APIVerve API key
 api = ExercisesAPIClient("[YOUR_API_KEY]")
 
-query = { "muscle": "chest", "name": "barbell", "equipment": "barbell" }
+query = {
+    "muscle": "chest",
+    "name": "barbell",
+    "equipment": "barbell"
+}
 
 try:
     # Make the API call
@@ -82,7 +86,11 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```python
-query = { "muscle": "chest", "name": "barbell", "equipment": "barbell" }
+query = {
+    "muscle": "chest",
+    "name": "barbell",
+    "equipment": "barbell"
+}
 ```
 
 ###### Simple Request
@@ -198,7 +206,11 @@ from apiverve_exercises.apiClient import ExercisesAPIClient, ExercisesAPIClientE
 
 api = ExercisesAPIClient("[YOUR_API_KEY]")
 
-query = { "muscle": "chest", "name": "barbell", "equipment": "barbell" }
+query = {
+    "muscle": "chest",
+    "name": "barbell",
+    "equipment": "barbell"
+}
 
 try:
     result = api.execute(query)
@@ -219,7 +231,11 @@ from apiverve_exercises.apiClient import ExercisesAPIClient, ExercisesAPIClientE
 
 api = ExercisesAPIClient("[YOUR_API_KEY]")
 
-query = { "muscle": "chest", "name": "barbell", "equipment": "barbell" }
+query = {
+    "muscle": "chest",
+    "name": "barbell",
+    "equipment": "barbell"
+}
 
 try:
     result = api.execute(query)
@@ -253,7 +269,11 @@ The client supports the context manager protocol for automatic resource cleanup:
 ```python
 from apiverve_exercises.apiClient import ExercisesAPIClient, ExercisesAPIClientError
 
-query = { "muscle": "chest", "name": "barbell", "equipment": "barbell" }
+query = {
+    "muscle": "chest",
+    "name": "barbell",
+    "equipment": "barbell"
+}
 
 # Using context manager ensures proper cleanup
 with ExercisesAPIClient("[YOUR_API_KEY]") as api:
@@ -279,7 +299,11 @@ from apiverve_exercises.apiClient import ExercisesAPIClient
 # Enable debug mode
 api = ExercisesAPIClient("[YOUR_API_KEY]", debug=True)
 
-query = { "muscle": "chest", "name": "barbell", "equipment": "barbell" }
+query = {
+    "muscle": "chest",
+    "name": "barbell",
+    "equipment": "barbell"
+}
 
 # Debug information will be printed to console
 result = api.execute(query)
@@ -294,8 +318,13 @@ from apiverve_exercises.apiClient import ExercisesAPIClient
 
 api = ExercisesAPIClient("[YOUR_API_KEY]")
 
+query = {
+    "muscle": "chest",
+    "name": "barbell",
+    "equipment": "barbell"
+}
+
 try:
-    query = { "muscle": "chest", "name": "barbell", "equipment": "barbell" }
     result = api.execute(query)
     print(result)
 finally:
