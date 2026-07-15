@@ -30,7 +30,7 @@ class exercisesWrapper {
         this.baseURL = 'https://api.apiverve.com/v1/exercises';
 
         // Validation rules for parameters (generated from schema)
-        this.validationRules = {"muscle":{"type":"string","required":false},"name":{"type":"string","required":false},"equipment":{"type":"string","required":false}};
+        this.validationRules = {"muscle":{"type":"string","required":true},"name":{"type":"string","required":false},"equipment":{"type":"string","required":false}};
     }
 
     /**
