@@ -13,7 +13,14 @@ const API_URL = 'https://api.apiverve.com/v1/exercises';
  */
 async function callExercisesAPI() {
   try {
-    const response = await fetch(API_URL, {
+    // Query parameters
+    const params &#x3D; new URLSearchParams({
+            muscle: &#x27;chest&#x27;,
+            name: &#x27;barbell&#x27;,
+            equipment: &#x27;barbell&#x27;
+        });
+
+    const response = await fetch(`${API_URL}?${params}`, {
       method: 'GET',
       headers: {
         'x-api-key': API_KEY
