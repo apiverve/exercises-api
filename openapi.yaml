@@ -28,7 +28,7 @@ paths:
           in: query
           schema:
             type: string
-          required: false
+          required: true
           description: The muscle group to get exercises for
           example: chest
         - name: name
