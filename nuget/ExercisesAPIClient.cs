@@ -68,7 +68,7 @@ namespace APIVerve.API.Exercises
         private static readonly Dictionary<string, ValidationRule> _validationRules = new Dictionary<string, ValidationRule>
         {
             { "muscle", new ValidationRule { Type = "string", Required = true } },
-            { "name", new ValidationRule { Type = "string", Required = false } },
+            { "name", new ValidationRule { Type = "string", Required = false, MaxLength = 100 } },
             { "equipment", new ValidationRule { Type = "string", Required = false } }
         };
 
