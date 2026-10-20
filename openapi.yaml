@@ -2,8 +2,10 @@ openapi: 3.0.4
 info:
   title: Exercises
   description: >-
-    Exercises is a simple tool for getting exercise information. It returns
-    information on various exercises.
+    Exercises filters movements by target muscle group, equipment, and exercise
+    name, returning matching exercises with their force type and required gear.
+    Paid plans add step-by-step instructions, difficulty levels, and movement
+    mechanics.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +20,7 @@ servers:
 paths:
   /v1/exercises:
     get:
-      summary: Get Exercise Information
+      summary: Exercises
       description: >-
         Exercises is a simple tool for getting exercise information. It returns
         information on various exercises.
