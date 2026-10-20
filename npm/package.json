@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/exercises",
-  "version": "1.2.0",
-  "description": "Exercises is a simple tool for getting exercise information. It returns information on various exercises.",
+  "version": "1.2.2",
+  "description": "Exercises filters movements by target muscle group, equipment, and exercise name, returning matching exercises with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "exercises", "exercises api", "exercises tool", "exercises software", "exercises service"
+    "exercises api", "workout routine database", "exercise by muscle group", "gym workout movements", "dumbbell exercises lookup"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/exercises-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/exercises?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/exercises?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
