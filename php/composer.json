@@ -1,7 +1,7 @@
 {
     "name": "apiverve/exercises",
-    "description": "Exercises is a simple tool for getting exercise information. It returns information on various exercises.",
-    "version": "1.2.0",
+    "description": "Exercises filters movements by target muscle group, equipment, and exercise name, returning matching exercises with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics.",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
         "api",
         "apiverve",
         "exercises",
-        "exercises",
         "exercises api",
-        "exercises tool",
-        "exercises software",
-        "exercises service"
+        "workout routine database",
+        "exercise by muscle group",
+        "gym workout movements",
+        "dumbbell exercises lookup"
     ],
-    "homepage": "https://apiverve.com/marketplace/exercises?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/exercises?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/exercises",

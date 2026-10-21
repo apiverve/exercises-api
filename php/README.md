@@ -1,6 +1,6 @@
 # Exercises API - PHP Package
 
-Exercises is a simple tool for getting exercise information. It returns information on various exercises.
+Exercises filters movements by target muscle group, equipment, and exercise name, returning matching exercises with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics.
 
 ## Installation
 
@@ -163,11 +163,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/exercises?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/exercises?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/exercises?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/exercises?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/exercises?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/exercises?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License

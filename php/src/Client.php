@@ -19,7 +19,7 @@ use APIVerve\Exercises\Exceptions\ValidationException;
  * print_r($response);
  * ```
  *
- * @see https://apiverve.com/marketplace/exercises?utm_source=php&utm_medium=readme
+ * @see https://apiverve.com/marketplace/exercises?utm_source=php&utm_medium=referral&utm_content=readme
  */
 class Client
 {
@@ -35,7 +35,7 @@ class Client
      */
     private const VALIDATION_RULES = [
         'muscle' => ['type' => 'string', 'required' => true],
-        'name' => ['type' => 'string', 'required' => false],
+        'name' => ['type' => 'string', 'required' => false, 'maxLength' => 100],
         'equipment' => ['type' => 'string', 'required' => false]
     ];
 
