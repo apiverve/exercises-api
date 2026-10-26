@@ -1,7 +1,7 @@
 {
     "name": "apiverve/exercises",
     "description": "Exercises filters movements by target muscle group, equipment, and exercise name, returning matching exercises with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics.",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "type": "library",
     "license": "MIT",
     "authors": [
