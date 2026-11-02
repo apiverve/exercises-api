@@ -46,11 +46,11 @@ final _formatPatterns = {
 
 /// Exercises API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/exercises?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/exercises?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
-/// * [muscle] - The muscle group to get exercises for
-/// * [name] - The name of the exercise to get information about
+/// * [muscle] (required) - The muscle group to get exercises for
+/// * [name] - The name of the exercise to get information about [maxLength: 100]
 /// * [equipment] - The equipment used for the exercise
 class ExercisesClient {
   final String apiKey;
@@ -59,8 +59,8 @@ class ExercisesClient {
 
   /// Validation rules for parameters.
   static final Map<String, ValidationRule> _validationRules = <String, ValidationRule>{
-    'muscle': ValidationRule(type: 'string', required: false),
-    'name': ValidationRule(type: 'string', required: false),
+    'muscle': ValidationRule(type: 'string', required: true),
+    'name': ValidationRule(type: 'string', required: false, maxLength: 100),
     'equipment': ValidationRule(type: 'string', required: false),
   };
 

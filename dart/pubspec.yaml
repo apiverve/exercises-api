@@ -1,7 +1,7 @@
 name: apiverve_exercises
-description: Exercises is a simple tool for getting exercise information. It returns information on various exercises.
-version: 1.1.14
-homepage: https://apiverve.com/marketplace/exercises?utm_source=dart&utm_medium=homepage
+description: "Exercises filters movements by target muscle group, equipment, and exercise name, returning matching exercises with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics."
+version: 1.2.4
+homepage: https://apiverve.com/marketplace/exercises?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/exercises-api/tree/main/dart
 
 environment:
