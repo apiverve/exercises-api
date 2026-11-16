@@ -3,9 +3,9 @@ info:
   title: Exercises
   description: >-
     Exercises filters movements by target muscle group, equipment, and exercise
-    name, returning matching exercises with their force type and required gear.
-    Paid plans add step-by-step instructions, difficulty levels, and movement
-    mechanics.
+    name, returning up to 5 matching exercises per request (alphabetical) with
+    their force type and required gear. Paid plans add step-by-step
+    instructions, difficulty levels, and movement mechanics.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support

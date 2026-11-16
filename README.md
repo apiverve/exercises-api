@@ -1,6 +1,6 @@
 # [Exercises API](https://apiverve.com/marketplace/exercises?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Exercises filters movements by target muscle group, equipment, and exercise name, returning matching exercises with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics.
+Exercises filters movements by target muscle group, equipment, and exercise name, returning up to 5 matching exercises per request (alphabetical) with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics.
 
 The Exercises API provides a simple, reliable way to integrate exercises functionality into your applications. Built for developers who need production-ready exercises capabilities without the complexity of building from scratch.
 
