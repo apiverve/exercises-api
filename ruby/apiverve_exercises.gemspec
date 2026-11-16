@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "apiverve_exercises"
-  spec.version       = "1.2.5"
+  spec.version       = "1.2.6"
   spec.authors       = ["APIVerve"]
   spec.email         = ["hello@apiverve.com"]
 
   spec.summary       = "Exercises API - Ruby Client"
-  spec.description   = "Exercises filters movements by target muscle group, equipment, and exercise name, returning matching exercises with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics."
+  spec.description   = "Exercises filters movements by target muscle group, equipment, and exercise name, returning up to 5 matching exercises per request (alphabetical) with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics."
   spec.homepage      = "https://apiverve.com/marketplace/exercises?utm_source=ruby&utm_medium=referral&utm_content=homepage"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
