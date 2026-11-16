@@ -1,6 +1,6 @@
 # Exercises API
 
-Exercises filters movements by target muscle group, equipment, and exercise name, returning matching exercises with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics.
+Exercises filters movements by target muscle group, equipment, and exercise name, returning up to 5 matching exercises per request (alphabetical) with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics.
 
 [![npm version](https://img.shields.io/npm/v/@apiverve/exercises.svg)](https://www.npmjs.com/package/@apiverve/exercises)
 
