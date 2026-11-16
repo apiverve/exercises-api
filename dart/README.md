@@ -1,6 +1,6 @@
 # Exercises API - Dart/Flutter Client
 
-Exercises filters movements by target muscle group, equipment, and exercise name, returning matching exercises with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics.
+Exercises filters movements by target muscle group, equipment, and exercise name, returning up to 5 matching exercises per request (alphabetical) with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_exercises.svg)](https://pub.dev/packages/apiverve_exercises)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_exercises: ^1.2.5
+  apiverve_exercises: ^1.2.6
 ```
 
 Then run:
