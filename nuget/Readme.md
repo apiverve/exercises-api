@@ -1,7 +1,7 @@
 Exercises API
 ============
 
-Exercises filters movements by target muscle group, equipment, and exercise name, returning matching exercises with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics.
+Exercises filters movements by target muscle group, equipment, and exercise name, returning up to 5 matching exercises per request (alphabetical) with their force type and required gear. Paid plans add step-by-step instructions, difficulty levels, and movement mechanics.
 
 
 [![NuGet version](https://img.shields.io/nuget/v/APIVerve.API.Exercises.svg)](https://www.nuget.org/packages/APIVerve.API.Exercises)
